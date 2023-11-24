@@ -9,10 +9,12 @@
 </head>
 <body>
     <div class="container">
-        <div>00:00</div>
-        <button>Começar</button>
-        <button>Pausar</button>
-        <button>Parar</button>
+        <div id="watch">00:00:00</div>
+        <div class="btn">
+            <button class="start-btn" onclick="start()">Começar</button>
+            <button class="pause-btn" onclick="pause()">Pausar</button>
+            <button class="stop-btn" onclick="cancel()">Resetar</button>
+        </div>
     </div>
 </body>
 </html>
