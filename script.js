@@ -31,9 +31,8 @@ function watch(){
     if(sec == 60){
         min++;
         sec = 0;
-        if(min=60){
+        if(min == 60){
             min=0;
-            sec=0;
             hrs++;
         }
     }
