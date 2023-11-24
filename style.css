@@ -22,21 +22,10 @@ body{
     font-size: 50px;
     margin: 10px 0;
 }
-.start-btn{
+.start-btn, .pause-btn, .stop-btn{
     border: none;
     padding: 7px;
     border-radius: 5px;
     margin: 0 5px;
-}
-.pause-btn{
-    border: none;
-    padding: 7px;
-    border-radius: 5px;
-    margin: 0 5px;
-}
-.stop-btn{
-    border: none;
-    padding: 7px;
-    border-radius: 5px;
-    margin: 0 5px;
+    font-family: 'inter', sans-serif;
 }
