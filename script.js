@@ -14,6 +14,8 @@ function digits(digit){
 }
 
 function start(){
+    watch()
+    cancel()
     clearInterval(interval)
     interval = setInterval(watch, 1000);
 }
