@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'inter', sans-serif;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+}
+header img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+header .container ul{
+    display: flex;
+    gap: 20px;
+}
+header .container ul li{
+    list-style: none;
+}
