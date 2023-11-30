@@ -3,40 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KauanAlvz | Simple Clock</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cronometro.css">
+    <script defer src="cronometro.js"></script>
+    <title>KauanAlvz | Cronômetro</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo"><a href="#"><img src="imgs/icone-d-horloge-gris.png" alt="Icone Relogio Cinza"></a></div>
-            <div class="links">
-                <ul>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                    <li><a href="#">link</a></li>
-                </ul>
-            </div>
-        </div>   
-    </header>
-    <main>
-        <div class="container">
-            <h1>Simple Clock</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae et quis ipsam qui sunt labore iste reprehenderit totam at libero consequatur nesciunt nulla, quo nemo, sit velit blanditiis distinctio corporis!</p>
-            <button>Veja nossos serviços</button>
+    <div class="container">
+        <div id="watch">00:00:00</div>
+        <div class="btn">
+            <button class="start-btn" onclick="start()">Começar</button>
+            <button class="pause-btn" onclick="pause()">Pausar</button>
+            <button class="stop-btn" onclick="cancel()">Resetar</button>
         </div>
-    </main>
-    <section id="resultados">
-        <div class="card"><p>+de 000 clientes satisfeitos</p></div>
-    </section>
-    <section id="serviços">
-
-    </section>
-    <section id="contato">
-
-    </section>
-    <footer>
-
-    </footer>
+    </div>
 </body>
 </html>
